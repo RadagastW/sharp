@@ -1,4 +1,5 @@
 ﻿using Sharp.ConsoleApp.Interfaces;
+using Sharp.ConsoleApp.Utilities;
 using System;
 
 namespace Sharp.ConsoleApp.Commands
@@ -15,40 +16,13 @@ namespace Sharp.ConsoleApp.Commands
         /// </summary>
         public void Execute()
         {
-            int health = ReadIntFromConsole("Введите кол-во здоровья");
-            int armor = ReadIntFromConsole("Введите кол-во брони");
-            int damage = ReadIntFromConsole("Введите кол-во урона");
+            int health = ConsoleUtilites.ReadIntFromConsole("Введите кол-во здоровья: ");
+            int armor = ConsoleUtilites.ReadIntFromConsole("Введите кол-во брони: ");
+            int damage = ConsoleUtilites.ReadIntFromConsole("Введите кол-во урона: ");
 
             health -= damage * armor / PERCENT_CONVERTER;
 
             Console.WriteLine($"Вам нанесли {damage} урона. У вас осталось {health} здоровья.");
-        }
-
-        /// <summary>
-        /// Запрашивает у пользователя ввод целого числа. Повторяет запрос до тех пор, пока не будет введено корректное значение.
-        /// </summary>
-        /// <param name="prompt">Сообщение для запроса ввода, отображаемое пользователю.</param>
-        /// <returns>Целочисленное значение, введенное пользователем.</returns>
-        private int ReadIntFromConsole(string prompt)
-        {
-            int value;
-
-            while (true)
-            {
-                Console.Write($"{prompt}: ");
-
-                string input = Console.ReadLine();
-                if (int.TryParse(input, out value))
-                {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Некорректный ввод. Пожалуйста, введите правильное число.");
-                }
-            }
-
-            return value;
         }
     }
 }
