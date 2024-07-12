@@ -16,9 +16,9 @@ namespace Sharp.ConsoleApp.Commands
         /// </summary>
         public void Execute()
         {
-            int health = ConsoleUtilites.ReadIntFromConsole("Введите кол-во здоровья: ");
-            int armor = ConsoleUtilites.ReadIntFromConsole("Введите кол-во брони: ");
-            int damage = ConsoleUtilites.ReadIntFromConsole("Введите кол-во урона: ");
+            int health = ConsoleUtilites.ReadFromConsole<int>("Введите кол-во здоровья: ");
+            int armor = ConsoleUtilites.ReadFromConsole<int>("Введите кол-во брони: ");
+            int damage = ConsoleUtilites.ReadFromConsole<int>("Введите кол-во урона: ");
 
             health -= damage * armor / PERCENT_CONVERTER;
 

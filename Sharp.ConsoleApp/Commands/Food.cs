@@ -17,8 +17,8 @@ namespace Sharp.ConsoleApp.Commands
         public void Execute()
         {
             Console.WriteLine($"Добро пожаловать в пекарню. Сегодня еда по {FOOD_UNIT_PRICE} монет.");
-            int money = ConsoleUtilites.ReadIntFromConsole("Сколько у вас золота? ");
-            int food = ConsoleUtilites.ReadIntFromConsole("Сколько еды вам нужно? ");
+            int money = ConsoleUtilites.ReadFromConsole<int>("Сколько у вас золота? ");
+            int food = ConsoleUtilites.ReadFromConsole<int>("Сколько еды вам нужно? ");
 
             bool isAbleToPay = money >= food * FOOD_UNIT_PRICE;
             food *= Convert.ToInt32(isAbleToPay);
