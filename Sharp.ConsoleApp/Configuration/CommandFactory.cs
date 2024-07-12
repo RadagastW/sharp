@@ -20,6 +20,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "HELP", new Help() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "HEALTH_CALCULATION", new HealthCalculation() },
+                { "FOOD", new Food() },
                 { "EXIT", new Exit() }
             };
         }
