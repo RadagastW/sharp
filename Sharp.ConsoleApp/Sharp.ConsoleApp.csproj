@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\Exit.cs" />
+    <Compile Include="Commands\HealthCalculation.cs" />
     <Compile Include="Commands\Help.cs" />
     <Compile Include="Commands\TimeInMinutes.cs" />
     <Compile Include="Configuration\CommandFactory.cs" />
