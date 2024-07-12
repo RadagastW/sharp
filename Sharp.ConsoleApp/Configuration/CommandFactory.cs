@@ -21,6 +21,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "HEALTH_CALCULATION", new HealthCalculation() },
                 { "FOOD", new Food() },
+                { "CURRENCY_EXCHANGE", new CurrencyExchange() },
                 { "EXIT", new Exit() }
             };
         }
