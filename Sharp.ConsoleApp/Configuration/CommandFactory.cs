@@ -18,6 +18,7 @@ namespace Sharp.ConsoleApp.Configuration
             return new Dictionary<string, ICommand>
             {
                 { "HELP", new Help() },
+                { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "EXIT", new Exit() }
             };
         }
