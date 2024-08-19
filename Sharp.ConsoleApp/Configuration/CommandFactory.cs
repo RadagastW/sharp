@@ -1,5 +1,6 @@
 ﻿using Sharp.ConsoleApp.Commands;
 using Sharp.ConsoleApp.Interfaces;
+using System;
 using System.Collections.Generic;
 
 namespace Sharp.ConsoleApp.Configuration
@@ -21,6 +22,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
                 { "DEPOSIT", new Deposit() },
                 { "FOOD", new Food() },
+                { "GUESS", new Guess() },
                 { "HEALTH_CALCULATION", new HealthCalculation() },
                 { "PASSWORD", new Password() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
