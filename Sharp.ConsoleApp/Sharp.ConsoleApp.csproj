@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Password.cs" />
     <Compile Include="Commands\Exit.cs" />
     <Compile Include="Commands\HealthCalculation.cs" />
     <Compile Include="Commands\Help.cs" />
