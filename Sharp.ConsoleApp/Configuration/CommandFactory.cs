@@ -18,10 +18,11 @@ namespace Sharp.ConsoleApp.Configuration
             return new Dictionary<string, ICommand>
             {
                 { "HELP", new Help() },
-                { "TIME_IN_MINUTES", new TimeInMinutes() },
-                { "HEALTH_CALCULATION", new HealthCalculation() },
-                { "FOOD", new Food() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
+                { "FOOD", new Food() },
+                { "HEALTH_CALCULATION", new HealthCalculation() },
+                { "PASSWORD", new Password() },
+                { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "EXIT", new Exit() }
             };
         }
