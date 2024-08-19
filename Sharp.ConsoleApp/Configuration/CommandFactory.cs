@@ -19,6 +19,7 @@ namespace Sharp.ConsoleApp.Configuration
             {
                 { "HELP", new Help() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
+                { "DEPOSIT", new Deposit() },
                 { "FOOD", new Food() },
                 { "HEALTH_CALCULATION", new HealthCalculation() },
                 { "PASSWORD", new Password() },
