@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\Deposit.cs" />
+    <Compile Include="Commands\Gladiators.cs" />
     <Compile Include="Commands\Password.cs" />
     <Compile Include="Commands\Exit.cs" />
     <Compile Include="Commands\HealthCalculation.cs" />
