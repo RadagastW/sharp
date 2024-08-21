@@ -1,5 +1,6 @@
 ﻿using Sharp.ConsoleApp.Configuration;
 using Sharp.ConsoleApp.Interfaces;
+using Sharp.ConsoleApp.Utilities;
 using System;
 
 namespace Sharp.ConsoleApp
@@ -11,6 +12,8 @@ namespace Sharp.ConsoleApp
         /// </summary>
         static void Main()
         {
+            ConsoleWindowManager.SetPosition(0, 0);
+
             string input = "";
 
             while (input != "EXIT")
