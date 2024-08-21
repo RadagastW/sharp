@@ -2,6 +2,7 @@
 using Sharp.ConsoleApp.Interfaces;
 using Sharp.ConsoleApp.Utilities;
 using System;
+using System.Windows.Forms;
 
 namespace Sharp.ConsoleApp
 {
@@ -12,7 +13,12 @@ namespace Sharp.ConsoleApp
         /// </summary>
         static void Main()
         {
-            ConsoleWindowManager.SetPosition(0, 0);
+            // Проверка наличия второго монитора
+            if (Screen.AllScreens.Length > 1)
+            {
+                // Если второй монитор существует, перемещаем окно консоли на него
+                ConsoleWindowManager.SetPosition(-1500, 50);
+            }
 
             string input = "";
 
