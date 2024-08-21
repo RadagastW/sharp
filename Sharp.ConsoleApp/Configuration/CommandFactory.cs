@@ -26,6 +26,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "GUESS", new Guess() },
                 { "HEALTH_CALCULATION", new HealthCalculation() },
                 { "PASSWORD", new Password() },
+                { "REGISTRATION", new Registration() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "EXIT", new Exit() }
             };
