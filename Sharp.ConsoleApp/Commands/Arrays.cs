@@ -4,10 +4,16 @@ using System.Linq;
 
 namespace Sharp.ConsoleApp.Commands
 {
+    /// <summary>
+    /// Команда для работы с одномерным массивом.
+    /// </summary>
     public class Arrays : ICommand
     {
         private Random _rand = new Random();
 
+        /// <summary>
+        /// Выполнить команду для работы с одномерным массивом.
+        /// </summary>
         public void Execute()
         {
             Console.WriteLine("Одномерный массив.");
