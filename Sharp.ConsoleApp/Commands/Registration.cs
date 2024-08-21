@@ -38,6 +38,9 @@ namespace Sharp.ConsoleApp.Commands
             }
         }
 
+        /// <summary>
+        /// Отображает текущее состояние секторов и количество свободных мест.
+        /// </summary>
         private void DisplaySectors()
         {
             Console.Clear();
@@ -49,12 +52,18 @@ namespace Sharp.ConsoleApp.Commands
             Console.SetCursorPosition(0, 0);
         }
 
+        /// <summary>
+        /// Отображает главное меню для выбора действия.
+        /// </summary>
         private void DisplayMenu()
         {
             Console.WriteLine("Регистрации пассажиров на рейс.");
             Console.WriteLine("\n\n1 - забронировать места\n\n2 - выход из программы\n\n");
         }
 
+        /// <summary>
+        /// Обрабатывает бронирование мест в указанном секторе.
+        /// </summary>
         private void BookSeats()
         {
             int userSector = ConsoleUtilites.ReadFromConsole<int>("Сектор: ");
