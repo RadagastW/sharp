@@ -25,6 +25,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "GLADIATORS", new Gladiators() },
                 { "GUESS", new Guess() },
                 { "HEALTH_CALCULATION", new HealthCalculation() },
+                { "LIBRARY", new Library() },
                 { "PASSWORD", new Password() },
                 { "REGISTRATION", new Registration() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
