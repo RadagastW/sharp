@@ -18,6 +18,7 @@ namespace Sharp.ConsoleApp.Configuration
             return new Dictionary<string, ICommand>
             {
                 { "HELP", new Help() },
+                { "ARRAY_EXPANSION", new ArrayExpansion() },
                 { "ARRAYS", new Arrays() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
                 { "DEPOSIT", new Deposit() },
