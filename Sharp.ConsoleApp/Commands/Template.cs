@@ -5,7 +5,7 @@ namespace Sharp.ConsoleApp.Commands
     /// <summary>
     /// Команда для...
     /// </summary>
-    public class Operational : ICommand
+    public class Template : ICommand
     {
         /// <summary>
         /// Выполнить команду для...
