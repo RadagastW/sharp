@@ -31,6 +31,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "REGISTRATION", new Registration() },
                 { "TEMPLATE", new Template() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
+                { "WALKER", new WalkerGame() },
                 { "EXIT", new Exit() }
             };
         }
