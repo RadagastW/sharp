@@ -59,6 +59,7 @@
     <Compile Include="Commands\Guess.cs" />
     <Compile Include="Commands\Registration.cs" />
     <Compile Include="Commands\TimeInMinutes.cs" />
+    <Compile Include="Commands\WalkerGame.cs" />
     <Compile Include="Configuration\CommandFactory.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
     <Compile Include="Program.cs" />

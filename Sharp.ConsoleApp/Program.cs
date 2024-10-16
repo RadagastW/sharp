@@ -23,7 +23,7 @@ namespace Sharp.ConsoleApp
             string input = "";
 
             while (input != "EXIT")
-            {
+            { 
                 Console.Write("Введите команду: ");
                 input = Console.ReadLine()?.ToUpper();
 
