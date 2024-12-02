@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Commands\ArrayExpansion.cs" />
     <Compile Include="Commands\Arrays.cs" />
+    <Compile Include="Commands\Colors.cs" />
     <Compile Include="Commands\Deposit.cs" />
     <Compile Include="Commands\Gladiators.cs" />
     <Compile Include="Commands\Library.cs" />
