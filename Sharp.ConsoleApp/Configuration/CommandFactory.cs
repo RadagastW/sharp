@@ -20,6 +20,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "HELP", new Help() },
                 { "ARRAY_EXPANSION", new ArrayExpansion() },
                 { "ARRAYS", new Arrays() },
+                { "COLORS", new Colors() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
                 { "DEPOSIT", new Deposit() },
                 { "FOOD", new Food() },
