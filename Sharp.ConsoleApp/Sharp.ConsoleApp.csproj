@@ -50,6 +50,7 @@
     <Compile Include="Commands\Deposit.cs" />
     <Compile Include="Commands\Gladiators.cs" />
     <Compile Include="Commands\Library.cs" />
+    <Compile Include="Commands\Resize.cs" />
     <Compile Include="Commands\Template.cs" />
     <Compile Include="Commands\Password.cs" />
     <Compile Include="Commands\Exit.cs" />

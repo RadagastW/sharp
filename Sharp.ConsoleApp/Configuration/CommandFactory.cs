@@ -30,6 +30,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "LIBRARY", new Library() },
                 { "PASSWORD", new Password() },
                 { "REGISTRATION", new Registration() },
+                { "RESIZE", new Resize() },
                 { "TEMPLATE", new Template() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "WALKER", new WalkerGame() },
