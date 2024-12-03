@@ -37,5 +37,19 @@ namespace Sharp.ConsoleApp.Utilities
 
             return value;
         }
+
+        /// <summary>
+        /// Ограничивает значение в заданном диапазоне.
+        /// </summary>
+        /// <param name="value">Значение, которое необходимо ограничить.</param>
+        /// <param name="min">Минимально допустимое значение.</param>
+        /// <param name="max">Максимально допустимое значение.</param>
+        /// <returns>Значение, ограниченное диапазоном от min до max.</returns>
+        public static int Clamp(int value, int min, int max)
+        {
+            if (value < min) return min;
+            if (value > max) return max;
+            return value;
+        }
     }
 }
