@@ -4,7 +4,7 @@ using System;
 namespace Sharp.ConsoleApp.Commands
 {
     /// <summary>
-    /// Команда для...
+    /// Команда для расширения массива.
     /// </summary>
     public class ArrayExpansion : ICommand
     {
