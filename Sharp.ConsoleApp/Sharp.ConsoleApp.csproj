@@ -53,6 +53,7 @@
     <Compile Include="Commands\Resize.cs" />
     <Compile Include="Commands\HealthBar.cs" />
     <Compile Include="Commands\Packman\Packman.cs" />
+    <Compile Include="Commands\Lists.cs" />
     <Compile Include="Commands\Template.cs" />
     <Compile Include="Commands\Password.cs" />
     <Compile Include="Commands\Exit.cs" />
