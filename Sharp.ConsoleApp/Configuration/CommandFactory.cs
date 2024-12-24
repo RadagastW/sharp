@@ -30,6 +30,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "HEALTH_CALCULATION", new HealthCalculation() },
                 { "HEALTHBAR", new HealthBar() },
                 { "LIBRARY", new Library() },
+                { "LISTS", new Lists() },
                 { "PACKMAN", new Packman() },
                 { "PASSWORD", new Password() },
                 { "REGISTRATION", new Registration() },
