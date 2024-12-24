@@ -52,6 +52,7 @@
     <Compile Include="Commands\Library.cs" />
     <Compile Include="Commands\Resize.cs" />
     <Compile Include="Commands\HealthBar.cs" />
+    <Compile Include="Commands\Packman\Packman.cs" />
     <Compile Include="Commands\Template.cs" />
     <Compile Include="Commands\Password.cs" />
     <Compile Include="Commands\Exit.cs" />
@@ -73,6 +74,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Commands\Packman\Resources\map.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
 ﻿using Sharp.ConsoleApp.Commands;
+using Sharp.ConsoleApp.Commands.Packman;
 using Sharp.ConsoleApp.Interfaces;
 using System.Collections.Generic;
 
@@ -29,6 +30,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "HEALTH_CALCULATION", new HealthCalculation() },
                 { "HEALTHBAR", new HealthBar() },
                 { "LIBRARY", new Library() },
+                { "PACKMAN", new Packman() },
                 { "PASSWORD", new Password() },
                 { "REGISTRATION", new Registration() },
                 { "RESIZE", new Resize() },
