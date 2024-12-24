@@ -1,6 +1,8 @@
 ﻿using Sharp.ConsoleApp.Interfaces;
 using System;
 using System.IO;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Sharp.ConsoleApp.Commands.Packman
 {
@@ -19,8 +21,10 @@ namespace Sharp.ConsoleApp.Commands.Packman
         private int _playerX;
         private int _playerY;
         private int _score;
+        private ConsoleKeyInfo _pressedKey;
 
         private ConsoleColor _defaultColor;
+        private bool _isRunning;
 
         /// <summary>
         /// Выполнить команду для запуска игры "Packman".
@@ -30,6 +34,8 @@ namespace Sharp.ConsoleApp.Commands.Packman
             try
             {
                 InitializeGame();
+
+                Task.Run(ReadKeyLoop);
                 RunGameLoop();
             }
             catch (Exception ex)
@@ -52,6 +58,7 @@ namespace Sharp.ConsoleApp.Commands.Packman
             (_playerX, _playerY) = GetInitialPlayerPosition(_map);
 
             _score = 0;
+            _isRunning = true;
         }
 
         private void RunGameLoop()
@@ -62,6 +69,16 @@ namespace Sharp.ConsoleApp.Commands.Packman
 
                 if (!ProcessInput())
                     break;
+
+                Thread.Sleep(100);
+            }
+        }
+
+        private void ReadKeyLoop()
+        {
+            while (_isRunning)
+            {
+                _pressedKey = Console.ReadKey(true);
             }
         }
 
@@ -108,12 +125,10 @@ namespace Sharp.ConsoleApp.Commands.Packman
 
         private bool ProcessInput()
         {
-            ConsoleKeyInfo pressedKey = Console.ReadKey();
-
             int nextX = _playerX;
             int nextY = _playerY;
 
-            switch (pressedKey.Key)
+            switch (_pressedKey.Key)
             {
                 case ConsoleKey.UpArrow: nextY--; break;
                 case ConsoleKey.W: nextY--; break;
@@ -124,6 +139,7 @@ namespace Sharp.ConsoleApp.Commands.Packman
                 case ConsoleKey.RightArrow: nextX++; break;
                 case ConsoleKey.D: nextX++; break;
                 case ConsoleKey.Escape:
+                    _isRunning = false;
                     Console.Clear();
                     Console.SetCursorPosition(0, 0);
                     return false;
@@ -137,9 +153,13 @@ namespace Sharp.ConsoleApp.Commands.Packman
                 CollectTreasure();
             }
 
-            Console.Clear();
-
             return true;
+        }
+
+        private bool IsMoveValid(char[,] map, int x, int y)
+        {
+            return (x != _playerX || y != _playerY)
+                && map[x, y - 2] != WALL;
         }
 
         private void CollectTreasure()
@@ -193,11 +213,6 @@ namespace Sharp.ConsoleApp.Commands.Packman
         private static (int x, int y) GetInitialPlayerPosition(char[,] map)
         {
             return (map.GetLength(0) / 2, map.GetLength(1) / 2 + 2);
-        }
-
-        private static bool IsMoveValid(char[,] map, int x, int y)
-        {
-            return map[x, y - 2] != WALL;
         }
     }
 }
