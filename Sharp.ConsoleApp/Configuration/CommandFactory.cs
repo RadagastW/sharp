@@ -24,6 +24,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "COLORS", new Colors() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
                 { "DEPOSIT", new Deposit() },
+                { "DICTIONARIES", new Dictionaries() },
                 { "FOOD", new Food() },
                 { "GLADIATORS", new Gladiators() },
                 { "GUESS", new Guess() },
