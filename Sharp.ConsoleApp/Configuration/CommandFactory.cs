@@ -33,6 +33,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "LISTS", new Lists() },
                 { "PACKMAN", new Packman() },
                 { "PASSWORD", new Password() },
+                { "QUEUES", new Queues() },
                 { "REGISTRATION", new Registration() },
                 { "RESIZE", new Resize() },
                 { "TEMPLATE", new Template() },
