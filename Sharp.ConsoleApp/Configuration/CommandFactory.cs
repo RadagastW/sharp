@@ -36,6 +36,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "QUEUES", new Queues() },
                 { "REGISTRATION", new Registration() },
                 { "RESIZE", new Resize() },
+                { "STACKS", new Stacks() },
                 { "TEMPLATE", new Template() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "WALKER", new WalkerGame() },
