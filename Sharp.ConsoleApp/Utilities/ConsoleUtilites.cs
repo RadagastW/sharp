@@ -29,7 +29,7 @@ namespace Sharp.ConsoleApp.Utilities
                     value = (T)Convert.ChangeType(input, typeof(T));
                     break;
                 }
-                catch (FormatException)
+                catch
                 {
                     Console.WriteLine("Некорректный ввод. Пожалуйста, введите правильное число.");
                 }
