@@ -1,4 +1,5 @@
 ﻿using Sharp.ConsoleApp.Commands;
+using Sharp.ConsoleApp.Commands.Booking;
 using Sharp.ConsoleApp.Commands.Packman;
 using Sharp.ConsoleApp.Interfaces;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "HELP", new Help() },
                 { "ARRAY_EXPANSION", new ArrayExpansion() },
                 { "ARRAYS", new Arrays() },
+                { "BOOKING", new Booking() },
                 { "COLORS", new Colors() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
                 { "DEPOSIT", new Deposit() },
