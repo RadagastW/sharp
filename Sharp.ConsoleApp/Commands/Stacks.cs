@@ -25,7 +25,7 @@ namespace Sharp.ConsoleApp.Commands
             numbers.Push(ConsoleUtilites.ReadFromConsole<int>("Введите 4 число: "));
             numbers.Push(ConsoleUtilites.ReadFromConsole<int>("Введите 5 число: "));
 
-            Console.WriteLine($"Последнее ввеленное число: {numbers.Peek()}.");
+            Console.WriteLine($"Последнее введенное число: {numbers.Peek()}.");
 
             while (numbers.Count > 0)
             {
