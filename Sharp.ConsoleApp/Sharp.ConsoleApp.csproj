@@ -59,6 +59,10 @@
     <Compile Include="Commands\Packman\Packman.cs" />
     <Compile Include="Commands\Lists.cs" />
     <Compile Include="Commands\Booking\Booking.cs" />
+    <Compile Include="Commands\TasksBoard\Board.cs" />
+    <Compile Include="Commands\TasksBoard\Performer.cs" />
+    <Compile Include="Commands\TasksBoard\Task.cs" />
+    <Compile Include="Commands\TasksBoard\TasksBoard.cs" />
     <Compile Include="Commands\Template.cs" />
     <Compile Include="Commands\Password.cs" />
     <Compile Include="Commands\Exit.cs" />

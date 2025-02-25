@@ -1,6 +1,7 @@
 ﻿using Sharp.ConsoleApp.Commands;
 using Sharp.ConsoleApp.Commands.Booking;
 using Sharp.ConsoleApp.Commands.Packman;
+using Sharp.ConsoleApp.Commands.TasksBoard;
 using Sharp.ConsoleApp.Interfaces;
 using System.Collections.Generic;
 
@@ -40,6 +41,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "REGISTRATION", new Registration() },
                 { "RESIZE", new Resize() },
                 { "STACKS", new Stacks() },
+                { "TASKSBOARD", new TasksBoard() },
                 { "TEMPLATE", new Template() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "WALKER", new WalkerGame() },
