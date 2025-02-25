@@ -51,7 +51,7 @@
     <Compile Include="Commands\Gladiators.cs" />
     <Compile Include="Commands\Library.cs" />
     <Compile Include="Commands\Dictionaries.cs" />
-    <Compile Include="Commands\Packman\Table.cs" />
+    <Compile Include="Commands\Booking\Table.cs" />
     <Compile Include="Commands\Stacks.cs" />
     <Compile Include="Commands\Queues.cs" />
     <Compile Include="Commands\Resize.cs" />
