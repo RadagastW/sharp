@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sharp.ConsoleApp.Commands.Packman
+namespace Sharp.ConsoleApp.Commands.Booking
 {
     public class Table
     {
