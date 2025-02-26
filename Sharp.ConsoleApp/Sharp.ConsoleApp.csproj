@@ -52,6 +52,9 @@
     <Compile Include="Commands\Library.cs" />
     <Compile Include="Commands\Dictionaries.cs" />
     <Compile Include="Commands\Booking\Table.cs" />
+    <Compile Include="Commands\Render\Player.cs" />
+    <Compile Include="Commands\Render\Render.cs" />
+    <Compile Include="Commands\Render\Renderer.cs" />
     <Compile Include="Commands\Stacks.cs" />
     <Compile Include="Commands\Queues.cs" />
     <Compile Include="Commands\Resize.cs" />
@@ -93,5 +96,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
