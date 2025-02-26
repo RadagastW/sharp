@@ -1,5 +1,6 @@
 ﻿using Sharp.ConsoleApp.Commands;
 using Sharp.ConsoleApp.Commands.Booking;
+using Sharp.ConsoleApp.Commands.Encapsulation;
 using Sharp.ConsoleApp.Commands.Packman;
 using Sharp.ConsoleApp.Commands.Render;
 using Sharp.ConsoleApp.Commands.TasksBoard;
@@ -30,6 +31,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
                 { "DEPOSIT", new Deposit() },
                 { "DICTIONARIES", new Dictionaries() },
+                { "ENCAPSULATION", new Encapsulation() },
                 { "FOOD", new Food() },
                 { "GLADIATORS", new Gladiators() },
                 { "GUESS", new Guess() },
