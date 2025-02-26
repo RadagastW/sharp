@@ -4,7 +4,7 @@ using System;
 namespace Sharp.ConsoleApp.Commands.Warriors
 {
     /// <summary>
-    /// Команда для...
+    /// Команда для Warriors.
     /// </summary>
     public class Warriors : ICommand
     {
