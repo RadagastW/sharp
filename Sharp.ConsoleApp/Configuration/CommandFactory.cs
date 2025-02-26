@@ -1,6 +1,7 @@
 ﻿using Sharp.ConsoleApp.Commands;
 using Sharp.ConsoleApp.Commands.Booking;
 using Sharp.ConsoleApp.Commands.Packman;
+using Sharp.ConsoleApp.Commands.Render;
 using Sharp.ConsoleApp.Commands.TasksBoard;
 using Sharp.ConsoleApp.Commands.Warriors;
 using Sharp.ConsoleApp.Interfaces;
@@ -40,6 +41,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "PASSWORD", new Password() },
                 { "QUEUES", new Queues() },
                 { "REGISTRATION", new Registration() },
+                { "RENDER", new Render() },
                 { "RESIZE", new Resize() },
                 { "STACKS", new Stacks() },
                 { "TASKSBOARD", new TasksBoard() },
