@@ -2,6 +2,7 @@
 using Sharp.ConsoleApp.Commands.Booking;
 using Sharp.ConsoleApp.Commands.Packman;
 using Sharp.ConsoleApp.Commands.TasksBoard;
+using Sharp.ConsoleApp.Commands.Warriors;
 using Sharp.ConsoleApp.Interfaces;
 using System.Collections.Generic;
 
@@ -45,6 +46,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "TEMPLATE", new Template() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "WALKER", new WalkerGame() },
+                { "WARRIORS", new Warriors() },
                 { "EXIT", new Exit() }
             };
         }
