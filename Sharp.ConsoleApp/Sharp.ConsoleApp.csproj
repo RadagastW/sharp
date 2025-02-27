@@ -52,6 +52,8 @@
     <Compile Include="Commands\Colors.cs" />
     <Compile Include="Commands\Deposit.cs" />
     <Compile Include="Commands\Gladiators.cs" />
+    <Compile Include="Commands\Fighters\Fighter.cs" />
+    <Compile Include="Commands\Fighters\Fighters.cs" />
     <Compile Include="Commands\Library.cs" />
     <Compile Include="Commands\Dictionaries.cs" />
     <Compile Include="Commands\Booking\Table.cs" />
