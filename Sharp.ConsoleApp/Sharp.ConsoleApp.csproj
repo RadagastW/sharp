@@ -46,6 +46,10 @@
   <ItemGroup>
     <Compile Include="Commands\ArrayExpansion.cs" />
     <Compile Include="Commands\Arrays.cs" />
+    <Compile Include="Commands\Behaviors\Behavior.cs" />
+    <Compile Include="Commands\Behaviors\Behaviors.cs" />
+    <Compile Include="Commands\Behaviors\Jumper.cs" />
+    <Compile Include="Commands\Behaviors\Walker.cs" />
     <Compile Include="Commands\Encapsulation\Cart.cs" />
     <Compile Include="Commands\Encapsulation\Product.cs" />
     <Compile Include="Commands\Encapsulation\Encapsulation.cs" />

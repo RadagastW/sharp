@@ -1,4 +1,5 @@
 ﻿using Sharp.ConsoleApp.Commands;
+using Sharp.ConsoleApp.Commands.Behaviors;
 using Sharp.ConsoleApp.Commands.Booking;
 using Sharp.ConsoleApp.Commands.Encapsulation;
 using Sharp.ConsoleApp.Commands.Fighters;
@@ -27,6 +28,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "HELP", new Help() },
                 { "ARRAY_EXPANSION", new ArrayExpansion() },
                 { "ARRAYS", new Arrays() },
+                { "BEHAVIORS", new Behaviors() },
                 { "BOOKING", new Booking() },
                 { "COLORS", new Colors() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
@@ -49,7 +51,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "RESIZE", new Resize() },
                 { "STACKS", new Stacks() },
                 { "TASKSBOARD", new TasksBoard() },
-                { "TEMPLATE", new Template() },
+                { "TEMPLATE", new Behaviors() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "WALKER", new WalkerGame() },
                 { "WARRIORS", new Warriors() },
