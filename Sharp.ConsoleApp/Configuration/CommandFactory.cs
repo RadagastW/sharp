@@ -30,6 +30,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "ARRAYS", new Arrays() },
                 { "BEHAVIORS", new Behaviors() },
                 { "BOOKING", new Booking() },
+                { "CLUB", new ComputerClubManager() },
                 { "COLORS", new Colors() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
                 { "DEPOSIT", new Deposit() },

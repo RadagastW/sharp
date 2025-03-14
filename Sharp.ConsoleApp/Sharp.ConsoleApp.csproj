@@ -50,6 +50,10 @@
     <Compile Include="Commands\Behaviors\Behaviors.cs" />
     <Compile Include="Commands\Behaviors\Jumper.cs" />
     <Compile Include="Commands\Behaviors\Walker.cs" />
+    <Compile Include="Commands\ComputerClub\Client.cs" />
+    <Compile Include="Commands\ComputerClub\Computer.cs" />
+    <Compile Include="Commands\ComputerClub\ComputerClub.cs" />
+    <Compile Include="Commands\ComputerClub\ComputerClubManager.cs" />
     <Compile Include="Commands\Encapsulation\Cart.cs" />
     <Compile Include="Commands\Encapsulation\Product.cs" />
     <Compile Include="Commands\Encapsulation\Encapsulation.cs" />
