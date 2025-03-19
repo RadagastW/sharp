@@ -2,6 +2,7 @@
 using Sharp.ConsoleApp.Commands.Behaviors;
 using Sharp.ConsoleApp.Commands.Booking;
 using Sharp.ConsoleApp.Commands.Encapsulation;
+using Sharp.ConsoleApp.Commands.Enum;
 using Sharp.ConsoleApp.Commands.Fighters;
 using Sharp.ConsoleApp.Commands.Packman;
 using Sharp.ConsoleApp.Commands.Render;
@@ -36,6 +37,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "DEPOSIT", new Deposit() },
                 { "DICTIONARIES", new Dictionaries() },
                 { "ENCAPSULATION", new Encapsulation() },
+                { "ENUM", new EnumManager() },
                 { "FIGHTERS", new Fighters() },
                 { "FOOD", new Food() },
                 { "GLADIATORS", new Gladiators() },
@@ -52,7 +54,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "RESIZE", new Resize() },
                 { "STACKS", new Stacks() },
                 { "TASKSBOARD", new TasksBoard() },
-                { "TEMPLATE", new Behaviors() },
+                { "TEMPLATE", new Template() },
                 { "TIME_IN_MINUTES", new TimeInMinutes() },
                 { "WALKER", new WalkerGame() },
                 { "WARRIORS", new Warriors() },
