@@ -67,6 +67,9 @@
     <Compile Include="Commands\Library.cs" />
     <Compile Include="Commands\Dictionaries.cs" />
     <Compile Include="Commands\Booking\Table.cs" />
+    <Compile Include="Commands\LINQ\LinqExamples.cs" />
+    <Compile Include="Commands\LINQ\Player.cs" />
+    <Compile Include="Commands\LINQ\PlayerManager.cs" />
     <Compile Include="Commands\Render\Player.cs" />
     <Compile Include="Commands\Render\Render.cs" />
     <Compile Include="Commands\Render\Renderer.cs" />

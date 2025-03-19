@@ -4,6 +4,7 @@ using Sharp.ConsoleApp.Commands.Booking;
 using Sharp.ConsoleApp.Commands.Encapsulation;
 using Sharp.ConsoleApp.Commands.Enum;
 using Sharp.ConsoleApp.Commands.Fighters;
+using Sharp.ConsoleApp.Commands.LINQ;
 using Sharp.ConsoleApp.Commands.Packman;
 using Sharp.ConsoleApp.Commands.Render;
 using Sharp.ConsoleApp.Commands.TasksBoard;
@@ -45,6 +46,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "HEALTH_CALCULATION", new HealthCalculation() },
                 { "HEALTHBAR", new HealthBar() },
                 { "LIBRARY", new Library() },
+                { "LINQ", new LinqExamples() },
                 { "LISTS", new Lists() },
                 { "PACKMAN", new Packman() },
                 { "PASSWORD", new Password() },
