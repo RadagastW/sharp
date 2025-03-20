@@ -46,6 +46,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "HEALTH_CALCULATION", new HealthCalculation() },
                 { "HEALTHBAR", new HealthBar() },
                 { "LIBRARY", new Library() },
+                { "LIBRARY_DEMO", new LibraryDemo() },
                 { "LINQ", new LinqExamples() },
                 { "LISTS", new Lists() },
                 { "PACKMAN", new Packman() },

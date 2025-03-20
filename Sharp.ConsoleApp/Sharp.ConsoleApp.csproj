@@ -85,6 +85,7 @@
     <Compile Include="Commands\TasksBoard\Task.cs" />
     <Compile Include="Commands\TasksBoard\TasksBoard.cs" />
     <Compile Include="Commands\Enum\EnumManager.cs" />
+    <Compile Include="Commands\LibraryDemo.cs" />
     <Compile Include="Commands\Template.cs" />
     <Compile Include="Commands\Password.cs" />
     <Compile Include="Commands\Exit.cs" />
@@ -115,6 +116,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Sharp.ClassLibrary\Sharp.ClassLibrary.csproj">
+      <Project>{f58c939f-c432-49c0-8cdc-f1582f90bab4}</Project>
+      <Name>Sharp.ClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
