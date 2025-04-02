@@ -1,6 +1,7 @@
 ﻿using Sharp.ConsoleApp.Commands;
 using Sharp.ConsoleApp.Commands.Behaviors;
 using Sharp.ConsoleApp.Commands.Booking;
+using Sharp.ConsoleApp.Commands.Delegate;
 using Sharp.ConsoleApp.Commands.Encapsulation;
 using Sharp.ConsoleApp.Commands.Enum;
 using Sharp.ConsoleApp.Commands.Fighters;
@@ -36,6 +37,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "CLUB", new ComputerClubManager() },
                 { "COLORS", new Colors() },
                 { "CURRENCY_EXCHANGE", new CurrencyExchange() },
+                { "DELEGATE", new DelegateExample() },
                 { "DEPOSIT", new Deposit() },
                 { "DICTIONARIES", new Dictionaries() },
                 { "ENCAPSULATION", new Encapsulation() },
