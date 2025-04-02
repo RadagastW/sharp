@@ -61,6 +61,7 @@
     <Compile Include="Commands\Deposit.cs" />
     <Compile Include="Commands\Enum\Game.cs" />
     <Compile Include="Commands\Enum\Genre.cs" />
+    <Compile Include="Commands\Generic\GenericArray.cs" />
     <Compile Include="Commands\Gladiators.cs" />
     <Compile Include="Commands\Fighters\Fighter.cs" />
     <Compile Include="Commands\Fighters\Fighters.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Commands\TasksBoard\TasksBoard.cs" />
     <Compile Include="Commands\Enum\EnumManager.cs" />
     <Compile Include="Commands\LibraryDemo.cs" />
+    <Compile Include="Commands\Generic\GenericArrayExample.cs" />
     <Compile Include="Commands\Template.cs" />
     <Compile Include="Commands\Password.cs" />
     <Compile Include="Commands\Exit.cs" />

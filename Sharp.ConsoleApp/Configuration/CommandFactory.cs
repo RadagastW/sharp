@@ -4,6 +4,7 @@ using Sharp.ConsoleApp.Commands.Booking;
 using Sharp.ConsoleApp.Commands.Encapsulation;
 using Sharp.ConsoleApp.Commands.Enum;
 using Sharp.ConsoleApp.Commands.Fighters;
+using Sharp.ConsoleApp.Commands.Generic;
 using Sharp.ConsoleApp.Commands.LINQ;
 using Sharp.ConsoleApp.Commands.Packman;
 using Sharp.ConsoleApp.Commands.Render;
@@ -41,6 +42,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "ENUM", new EnumManager() },
                 { "FIGHTERS", new Fighters() },
                 { "FOOD", new Food() },
+                { "GENERIC", new GenericArrayExample() },
                 { "GLADIATORS", new Gladiators() },
                 { "GUESS", new Guess() },
                 { "HEALTH_CALCULATION", new HealthCalculation() },
