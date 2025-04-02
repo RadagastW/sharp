@@ -7,7 +7,7 @@ namespace Sharp.ConsoleApp.Commands.Generic
     /// <summary>
     /// Команда для работы с обобщенными типами.
     /// </summary>
-    public partial class GenericArrayExample : ICommand
+    public class GenericArrayExample : ICommand
     {
         /// <summary>
         /// Выполнить команду для работы с обобщенными типами.
