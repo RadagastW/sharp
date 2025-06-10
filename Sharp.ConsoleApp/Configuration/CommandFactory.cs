@@ -42,6 +42,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "DICTIONARIES", new Dictionaries() },
                 { "ENCAPSULATION", new Encapsulation() },
                 { "ENUM", new EnumManager() },
+                { "EVENT", new EventExample() },
                 { "FIGHTERS", new Fighters() },
                 { "FOOD", new Food() },
                 { "GENERIC", new GenericArrayExample() },

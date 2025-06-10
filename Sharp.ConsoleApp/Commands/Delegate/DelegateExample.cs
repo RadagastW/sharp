@@ -25,7 +25,7 @@ namespace Sharp.ConsoleApp.Commands.Delegate
 
         private void DemonstrateBasicDelegates()
         {
-            Console.WriteLine("\"Пример работы с делегатами\"\n");
+            Console.WriteLine("\"Примеры работы с делегатами\"\n");
 
             Operation operation = MathHelper.Add;
             Console.WriteLine(operation(1, 2));

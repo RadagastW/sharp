@@ -1,9 +1,8 @@
 ﻿namespace Sharp.ConsoleApp.Commands.Delegate
 {
-    public delegate void AccountHandler(string message);
-
     public class Account
     {
+        public delegate void AccountHandler(string message);
         private AccountHandler _taken;
         private int _sum;
 
