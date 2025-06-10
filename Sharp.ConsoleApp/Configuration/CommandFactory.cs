@@ -43,6 +43,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "ENCAPSULATION", new Encapsulation() },
                 { "ENUM", new EnumManager() },
                 { "EVENT", new EventExample() },
+                { "EVENT_WITH_EVENT_ARGS", new EventWithEventArgsExample() },
                 { "FIGHTERS", new Fighters() },
                 { "FOOD", new Food() },
                 { "GENERIC", new GenericArrayExample() },

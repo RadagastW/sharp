@@ -56,7 +56,9 @@
     <Compile Include="Commands\ComputerClub\ComputerClubManager.cs" />
     <Compile Include="Commands\Delegate\Account2.cs" />
     <Compile Include="Commands\Delegate\Account.cs" />
+    <Compile Include="Commands\Delegate\Account3.cs" />
     <Compile Include="Commands\Delegate\AccountEventArgs.cs" />
+    <Compile Include="Commands\Delegate\EventWithEventArgsExample.cs" />
     <Compile Include="Commands\Delegate\EventExample.cs" />
     <Compile Include="Commands\Delegate\MathHelper.cs" />
     <Compile Include="Commands\Delegate\DelegateExample.cs" />
