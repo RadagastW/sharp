@@ -18,6 +18,7 @@ namespace Sharp.ConsoleApp.Commands.Delegate
             DemonstrateDelegatesAsParameters();
             DemonstrateReturningDelegates();
             DemonstratePracticalUse();
+            DemonstrateAnonymousMethods();
 
             WaitForUserInput();
         }
@@ -92,6 +93,8 @@ namespace Sharp.ConsoleApp.Commands.Delegate
             account.Take(50);
         }
 
+        #region DemonstratePracticalUse
+
         private void PrintSimpleMessage(string message)
         {
             Console.WriteLine(message);
@@ -104,6 +107,33 @@ namespace Sharp.ConsoleApp.Commands.Delegate
             Console.ResetColor();
         }
 
+        #endregion
+
+        private void DemonstrateAnonymousMethods()
+        {
+            Console.WriteLine("\nПрименение анонимных методов\n");
+
+            MessageHandler handler = delegate (string message)
+            {
+                Console.WriteLine(message);
+            };
+            handler("Здесь анонимный метод используется для инициализации экземпляра делегата.");
+
+            ShowMessage("Здесь анонимный метод передается в качестве аргумента для параметра, который представляет делегат.", delegate (string message)
+            {
+                Console.WriteLine(message);
+            });
+        }
+
+        #region DemonstrateAnonymousMethods
+
+        private static void ShowMessage(string message, MessageHandler handler)
+        {
+            handler(message);
+        }
+
+        #endregion
+
         private void WaitForUserInput()
         {
             Console.WriteLine("\nНажмите любую клавишу для продолжения...");
@@ -112,6 +142,7 @@ namespace Sharp.ConsoleApp.Commands.Delegate
         }
     }
 
-    delegate int Operation(int x, int y);
-    delegate void OperationPrinter(int x, int y);
+    public delegate int Operation(int x, int y);
+    public delegate void OperationPrinter(int x, int y);
+    public delegate void MessageHandler(string message);
 }
