@@ -54,6 +54,7 @@
     <Compile Include="Commands\ComputerClub\Computer.cs" />
     <Compile Include="Commands\ComputerClub\ComputerClub.cs" />
     <Compile Include="Commands\ComputerClub\ComputerClubManager.cs" />
+    <Compile Include="Commands\Delegate\Account.cs" />
     <Compile Include="Commands\Delegate\MathHelper.cs" />
     <Compile Include="Commands\Delegate\DelegateExample.cs" />
     <Compile Include="Commands\Delegate\OperationType.cs" />
