@@ -1,7 +1,7 @@
 ﻿using Sharp.ConsoleApp.Interfaces;
 using System;
 
-namespace Sharp.ConsoleApp.Commands.Delegate
+namespace Sharp.ConsoleApp.Commands.Delegate.EventExample
 {
     /// <summary>
     /// Команда для работы с событиями.
@@ -22,7 +22,7 @@ namespace Sharp.ConsoleApp.Commands.Delegate
         {
             Console.WriteLine("\"Примеры работы с событиями\"\n");
 
-            Account2 account = new Account2(0);
+            Account account = new Account(0);
 
             // Добавление обработчика для события Notify
             // Установка в качестве обработчика метода DisplayMessage
@@ -34,7 +34,7 @@ namespace Sharp.ConsoleApp.Commands.Delegate
 
             // Добавление обработчика для события Notify
             // Установка в качестве обработчика делегата, который указывает на метод DisplayMessage
-            account.Notify += new Account2.AccountHandler(DisplayMessage);
+            account.Notify += new Account.AccountHandler(DisplayMessage);
             account.Put(100);
 
             // Добавление обработчика для события Notify

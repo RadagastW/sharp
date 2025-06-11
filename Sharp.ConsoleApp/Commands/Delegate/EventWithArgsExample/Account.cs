@@ -1,13 +1,13 @@
-﻿namespace Sharp.ConsoleApp.Commands.Delegate
+﻿namespace Sharp.ConsoleApp.Commands.Delegate.EventWithArgsExample
 {
-    public class Account3
+    public class Account
     {
-        public delegate void AccountHandler(Account3 sender, AccountEventArgs e);
+        public delegate void AccountHandler(Account sender, AccountEventArgs e);
         public event AccountHandler Notify;
 
         public int Sum;
 
-        public Account3(int sum)
+        public Account(int sum)
         {
             Sum = sum;
         }

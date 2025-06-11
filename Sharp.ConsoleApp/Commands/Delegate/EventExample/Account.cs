@@ -1,6 +1,6 @@
-﻿namespace Sharp.ConsoleApp.Commands.Delegate
+﻿namespace Sharp.ConsoleApp.Commands.Delegate.EventExample
 {
-    public class Account2
+    public class Account
     {
         public delegate void AccountHandler(string message);
 
@@ -9,7 +9,7 @@
 
         private int _sum;
 
-        public Account2(int sum)
+        public Account(int sum)
         {
             _sum = sum;
         }

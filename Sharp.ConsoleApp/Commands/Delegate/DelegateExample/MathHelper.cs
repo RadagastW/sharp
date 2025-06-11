@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sharp.ConsoleApp.Commands.Delegate
+namespace Sharp.ConsoleApp.Commands.Delegate.DelegateExample
 {
     public static class MathHelper
     {

@@ -1,7 +1,9 @@
 ﻿using Sharp.ConsoleApp.Commands;
 using Sharp.ConsoleApp.Commands.Behaviors;
 using Sharp.ConsoleApp.Commands.Booking;
-using Sharp.ConsoleApp.Commands.Delegate;
+using Sharp.ConsoleApp.Commands.Delegate.DelegateExample;
+using Sharp.ConsoleApp.Commands.Delegate.EventExample;
+using Sharp.ConsoleApp.Commands.Delegate.EventWithArgsExample;
 using Sharp.ConsoleApp.Commands.Encapsulation;
 using Sharp.ConsoleApp.Commands.Enum;
 using Sharp.ConsoleApp.Commands.Fighters;
@@ -43,7 +45,7 @@ namespace Sharp.ConsoleApp.Configuration
                 { "ENCAPSULATION", new Encapsulation() },
                 { "ENUM", new EnumManager() },
                 { "EVENT", new EventExample() },
-                { "EVENT_WITH_EVENT_ARGS", new EventWithEventArgsExample() },
+                { "EVENT_WITH_ARGS", new EventWithArgsExample() },
                 { "FIGHTERS", new Fighters() },
                 { "FOOD", new Food() },
                 { "GENERIC", new GenericArrayExample() },

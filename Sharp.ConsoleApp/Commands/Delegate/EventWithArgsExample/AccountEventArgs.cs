@@ -1,4 +1,4 @@
-﻿namespace Sharp.ConsoleApp.Commands.Delegate
+﻿namespace Sharp.ConsoleApp.Commands.Delegate.EventWithArgsExample
 {
     public class AccountEventArgs
     {

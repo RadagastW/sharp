@@ -1,7 +1,7 @@
 ﻿using Sharp.ConsoleApp.Interfaces;
 using System;
 
-namespace Sharp.ConsoleApp.Commands.Delegate
+namespace Sharp.ConsoleApp.Commands.Delegate.DelegateExample
 {
     /// <summary>
     /// Команда для работы с делегатами.
